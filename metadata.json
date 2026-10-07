@@ -1,0 +1,8 @@
+{
+  "name": "(PORTUGAL) Página de Vendas - Pack de Frases",
+  "description": "Página de vendas de alta conversão para a Biblioteca de Frases para Contrabaixo, adaptada ao mercado português com uma paleta moderna em tons de dark obsidian e âmbar.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
