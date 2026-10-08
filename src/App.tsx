@@ -145,7 +145,7 @@ export default function App() {
         (window as any).fbq("track", "InitiateCheckout", {
           content_name: "Biblioteca de Frases para Contrabaixo",
           currency: "EUR",
-          value: 16.90
+          value: 14.90
         });
       }
 
@@ -153,8 +153,8 @@ export default function App() {
       if (typeof (window as any).gtag === "function") {
         (window as any).gtag("event", "begin_checkout", {
           currency: "EUR",
-          value: 16.90,
-          items: [{ item_name: "Biblioteca de Frases para Contrabaixo", price: 16.90 }]
+          value: 14.90,
+          items: [{ item_name: "Biblioteca de Frases para Contrabaixo", price: 14.90 }]
         });
       }
 
@@ -164,8 +164,8 @@ export default function App() {
           event: "InitiateCheckout",
           ecommerce: {
             currency: "EUR",
-            value: 16.90,
-            items: [{ item_name: "Biblioteca de Frases para Contrabaixo", price: 16.90 }]
+            value: 14.90,
+            items: [{ item_name: "Biblioteca de Frases para Contrabaixo", price: 14.90 }]
           }
         });
       }
@@ -175,7 +175,7 @@ export default function App() {
         (window as any).ttq.track("InitiateCheckout", {
           content_name: "Biblioteca de Frases para Contrabaixo",
           currency: "EUR",
-          value: 16.90
+          value: 14.90
         });
       }
 
@@ -183,7 +183,7 @@ export default function App() {
       if (typeof (window as any).utmify?.track === "function") {
         (window as any).utmify.track("InitiateCheckout", {
           currency: "EUR",
-          value: 16.90
+          value: 14.90
         });
       }
     } catch (e) {
@@ -450,16 +450,16 @@ export default function App() {
 
             <div className="space-y-1">
               <p className="text-slate-400 text-sm font-medium">
-                De <span className="line-through text-red-500 font-bold">€ 39</span> por apenas
+                De <span className="line-through text-red-500 font-bold">€ 29</span> por apenas
               </p>
               <div className="flex items-center justify-center gap-2">
                 <span className="text-3xl md:text-4xl font-extrabold text-brand-orange">€</span>
                 <span className="text-7xl md:text-8xl font-black font-display text-transparent bg-clip-text bg-gradient-to-b from-white via-slate-100 to-slate-400 leading-none drop-shadow-md px-2">
-                  16,90
+                  14,90
                 </span>
               </div>
               <p className="text-2xs font-mono text-brand-amber uppercase tracking-widest pt-2">
-                * Pagamento único. Sem mensalidades. Inclui videoaulas e tablaturas completas em PDF.
+                * Pagamento único. Sem mensalidades.
               </p>
 
               <div className="pt-6 pb-4 border-t border-white/[0.05] text-left max-w-xs md:max-w-sm mx-auto space-y-2.5">
@@ -546,7 +546,7 @@ export default function App() {
       <CheckoutModal
         isOpen={isCheckoutOpen}
         onClose={() => setIsCheckoutOpen(false)}
-        price={16.90}
+        price={14.90}
       />
     </div>
   );
